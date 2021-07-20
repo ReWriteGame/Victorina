@@ -10,18 +10,18 @@ public class QuestionSystem : MonoBehaviour
 
     private void Awake()
     {
-        question.Add( new Question("В своё время мафия нападала на транспортные средства и воровали головки сыра?", true));
-        question.Add( new Question("Членам американской «Коза Ностра» запрещено носить бороду?", true));
-        question.Add( new Question("Мафия убавала людей в программе защиты свидетелей?", false));
-        question.Add( new Question("Слово «мафия» имеет арабские корни, которые не связаны с преступностью?", true));
-        question.Add( new Question("Мафия никогда не возглавляла женщина?", false));
-        question.Add(new Question("Мафия всегда носила в карманах кастеты?", false));
-        question.Add(new Question("Глава мафии имел круг доверенных лиц которые проходили обряд посвещения кровью?", false));
-        question.Add(new Question("Вся мафия носила фраки?", false));
-        question.Add(new Question("Мафия зародилась из-за лимовнов?", true));
-        question.Add(new Question("Мафия вдохновлялась тайной сицилийской организацией?", true));
-        question.Add(new Question("Мафия имеет свои «Десять заповедей»?", true));
-        question.Add(new Question("В мафию мог вступить кто угодно?", true));
+        question.Add( new Question("At one time, the mafia attacked vehicles and stole cheese heads?", true));
+        question.Add( new Question("Members of the American Cosa Nostra are prohibited from wearing a beard?", true));
+        question.Add( new Question("Mafia diminished people in witness protection program? ", false));
+        question.Add( new Question("The word 'mafia' has Arabic roots that are not associated with crime?", true));
+        question.Add( new Question("Mafia was never headed by a woman?", false));
+        question.Add(new Question("Mafia always carried brass knuckles in their pockets?", false));
+        question.Add(new Question("The head of the mafia had a circle of confidants who passed the rite of passage by blood?", false));
+        question.Add(new Question("The whole mafia wore tailcoats?", false));
+        question.Add(new Question("Mafia was born because of limovs?", true));
+        question.Add(new Question("Mafia was inspired by a secret Sicilian organization?", true));
+        question.Add(new Question("Mafia has its own 'Ten Commandments'?", true));
+        question.Add(new Question("Anyone could join the mafia?", true));
     }
 
     void addQuestion(string question, bool answer)
