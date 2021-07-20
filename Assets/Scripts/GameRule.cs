@@ -37,6 +37,8 @@ public class GameRule : MonoBehaviour
         showQuestion();
 
         checkCountForAdmob();
+        win.SetActive(false);
+        lose.SetActive(false);
     }
 
     public void showQuestion()
